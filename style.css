@@ -1,0 +1,64 @@
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background: url(image/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+
+   }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+
+}
+
+   
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: #008ed6;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 2px;
+    width: 0%;
+    background: #008ed6;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 48%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 48%;
+
+}
+   
+   
+   
+   
+    
