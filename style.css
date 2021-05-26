@@ -64,45 +64,52 @@ header{
 }
 .banner-section h5{
 
-    color: #008ed6;
-    
-    text-transform: uppercase;
-    
-    font-size: 16px;
-    
-    letter-spacing: 2px;
-    
-    margin-bottom: 15px;
-    }
+color: #0ba0eb;
+
+text-transform: uppercase;
+
+font-size: 16px;
+
+letter-spacing: 2px;
+
+margin-bottom: 15px;
+
+font-weight: 500;
+
+}
     .banner-section h1{
     
-    color: #fff;
+color: #ffff;
     
-    margin-bottom: 25px;
+margin-bottom: 30px;
+    
+font-size: 52px;
     }
 .banner-section p{
     
-    color: #fff;
+color: #fff;
     
-    margin-bottom: 50px;
+margin-bottom: 50px;
+    
+font-size: 17px;
     }
     .btn-download{
     
-    color: #fff;
+color: #fff;
     
-    background-color: #008ed6;
+background-color: #008ed6;
     
-    padding: 15px 25px;
+padding: 15px 25px;
     
-    font-size: 14px;
+font-size: 15px;
     
-    text-transform: uppercase;
+text-transform: uppercase;
     
-    font-weight: 600;
+font-weight: 600;
     
-    letter-spacing: 1px;
+letter-spacing: 1.5px;
     
-    border-radius: 5px;
+border-radius: 5px;
     }
     .btn-features{
         
