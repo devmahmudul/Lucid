@@ -57,6 +57,94 @@ header{
     width: 48%;
 
 }
+.banner-section{
+    min-height: 90vh;
+    align-items: center;
+    position: relative;
+}
+.banner-section h5{
+
+    color: #008ed6;
+    
+    text-transform: uppercase;
+    
+    font-size: 16px;
+    
+    letter-spacing: 2px;
+    
+    margin-bottom: 15px;
+    }
+    .banner-section h1{
+    
+    color: #fff;
+    
+    margin-bottom: 25px;
+    }
+.banner-section p{
+    
+    color: #fff;
+    
+    margin-bottom: 50px;
+    }
+    .btn-download{
+    
+    color: #fff;
+    
+    background-color: #008ed6;
+    
+    padding: 15px 25px;
+    
+    font-size: 14px;
+    
+    text-transform: uppercase;
+    
+    font-weight: 600;
+    
+    letter-spacing: 1px;
+    
+    border-radius: 5px;
+    }
+    .btn-features{
+        
+    color: #fff;
+        
+    text-transform: uppercase;
+        
+    font-size: 14px;
+        
+    font-weight: 600;
+        
+    padding: 15px 25px;
+        
+    border: 1px solid#f1c7c7;
+        
+    border-radius: 5px;
+        
+    margin-left: 30px;
+    }
+    .btn-features:hover{
+        color: #fff;
+        background-color: #008ed6;
+        border-color: transparent;
+    }
+    .btn-download:hover{
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid#f1c7c7;
+    }
+    .phone{
+    
+    position: absolute;
+    
+    bottom: 0;
+    
+    left: 55%;
+    
+    width: 50%;
+    }
+    .phone img{
+        
+    }
    
    
    
